@@ -1,0 +1,94 @@
+#my-account .addresses-lists {
+
+  margin-bottom: 30px; }
+
+#my-account ul.myaccount-link-list li {
+
+  overflow: hidden;
+
+ margin-bottom:15px;
+
+  border-radius:5px;
+
+  border:1px solid #ccc;
+
+  float:left;
+
+  width:41.6667%;
+
+  margin-right:3%; }
+
+  #my-account ul.myaccount-link-list li a {
+
+    display: block;
+
+    overflow: hidden;
+
+    font: 600 16px/20px "Open Sans", sans-serif;
+
+    color: #555454;
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    position: relative;
+
+	 padding-bottom: 20px;
+
+  padding-top:20px;
+
+     }
+
+    #my-account ul.myaccount-link-list li a i {
+
+      font-size: 20px;
+
+      color: #767878;
+
+      position: absolute;
+
+	  padding:8px 3%;
+
+	  border-radius:5px;
+
+	  background:#fff;
+
+      left: 45%;
+
+      top: 0;
+
+      margin: 20px 0 0;
+
+      text-align: center;
+
+       }
+
+    #my-account ul.myaccount-link-list li a span {
+
+      display: block;
+
+    	font-family: "lato",arial;
+
+    	font-size: 13px;
+
+    	margin-top: 30px;
+
+    	overflow: hidden;
+
+    	padding: 13px 15px 15px 17px;
+
+    	text-align: center;
+
+       }
+
+    #my-account ul.myaccount-link-list li a:hover {
+
+      filter: none;
+
+      background: #90C322;
+
+	  color:#fff;
+
+       }
+

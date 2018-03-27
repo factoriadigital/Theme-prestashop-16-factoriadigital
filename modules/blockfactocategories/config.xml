@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockredfoxcategories</name>
+	<displayName><![CDATA[Stylish Category Tab on home page]]></displayName>
+	<version><![CDATA[3.1.1]]></version>
+	<description><![CDATA[Add a block which enables Stylish Category Tab on home page.]]></description>
+	<author><![CDATA[DigitalRedfox]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

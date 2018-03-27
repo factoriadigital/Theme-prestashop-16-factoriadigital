@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+.prod_img { display:block; clear:both; margin:10px auto 0;}
+
+/* Product Thumbnail */
+/* Thumbnail-products */
+.prodtimage {
+	width:100%;
+}
+
+.hoverproimg {
+    display: block;
+    margin: 0 auto;
+}
+.isotope-item .prothumb {
+	overflow-y:hidden;
+	width:45px;
+	margin-right:10px;
+	margin-left:5px;
+	position:absolute;
+	right:-125px;
+	top:10px;
+	opacity: 0;
+	-webkit-transition: opacity 0s;
+	-moz-transition: opacity 0s;
+	transition: opacity 0s;
+
+}
+
+.prothumb li.thumbsimg {
+	cursor:pointer;
+	border:1px solid #ccc;
+}
+.prothumb li.thumbsimg.act {border:1px solid #333;}
+.prothumb li img.thumb_image { width:100%; height:auto;}
+.isotope-item:hover .prothumb {
+	position:absolute;
+	right:0px;
+	top:10px;
+	-webkit-transition: opacity 0.3s 0.2s;
+	-moz-transition: opacity 0.3s 0.2s;
+	transition: opacity 0.3s 0.2s;
+	opacity: 1;
+	z-index:999;
+
+}
+
+
+.border_inside {
+	
+}
+
+
+.casual_products .isotope-item .pagingBox {
+    background: none repeat scroll 0 0 #fff;
+    bottom: 0;
+    color: #ccc;
+    left: 0;
+    line-height: 25px;
+    padding: 0 4px;
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+	.casual_products .isotope-item:hover {
+	width:222px !important;
+
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:222px;
+	border:1px solid #efefef;
+	margin-left:10px;
+}
+.isotope-item .prothumb {
+	height:220px;
+}
+.prothumb li.thumbsimg {
+	margin-bottom:12px;}
+
+}
+
+ @media (min-width: 1320px) {
+	 .casual_products .isotope-item:hover {
+	width:245px !important;
+
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:245px;
+	border:1px solid #efefef;
+	margin-left:10px;
+}
+.isotope-item .prothumb {
+	height:220px;
+}
+.prothumb li.thumbsimg {
+	margin-bottom:12px;}
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.casual_products .isotope-item:hover {
+	width:235px !important;
+
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:235px;
+}
+.isotope-item .prothumb {
+	height:244px;
+	display:none;
+}
+
+.col-sm-9 .casual_products .isotope-item:hover { width:178px !important;}
+.col-sm-9 .casual_products .isotope-item {
+	width:178px;
+}
+.col-sm-12 .casual_products .isotope-item:hover { width:185px !important;}
+.col-sm-12 .casual_products .isotope-item {
+	width:185px;
+}
+
+.cartbottom_btn { left:0; bottom:0; opacity:1;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.casual_products .isotope-item:hover {
+	width:182px !important;
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:182px;
+}
+.isotope-item .prothumb {
+	height:244px;
+	display:none;
+}
+.col-sm-12 .casual_products .isotope-item:hover { width:175px !important;}
+.col-sm-12 .casual_products .isotope-item {
+	width:175px;
+}
+.cartbottom_btn { left:0; bottom:0; opacity:1;}
+}
+@media (min-width: 620px) and (max-width: 768px) {
+	.isotope-item .prothumb { display:none;}
+	
+	 .casual_products .isotope-item:hover {
+	width:32% !important;
+	}
+.casual_products .isotope-item {
+	width:32%;
+}
+.col-sm-12 .casual_products .isotope-item:hover { width:32% !important;}
+.col-sm-12 .casual_products .isotope-item {
+	width:32%;
+}
+.cartbottom_btn { left:0; bottom:0; opacity:1;}
+
+}
+ @media (min-width: 460px) and (max-width: 619px) {
+	.isotope-item .prothumb { display:none;}
+	 .casual_products .isotope-item:hover {
+	width:49% !important;
+	}
+.casual_products .isotope-item {
+	width:49%;
+}
+
+.border_inside h3 a { font-size:12px;}
+.col-sm-12 .casual_products .isotope-item:hover { width:46.5% !important;}
+.col-sm-12 .casual_products .isotope-item {
+	width:46.5%;
+}
+.cartbottom_btn { left:0; bottom:0; opacity:1;}
+ }
+ 
+  @media (max-width: 459px) {
+	  .isotope-item .prothumb { display:none;}
+	  .casual_products .isotope-item:hover {
+	width:99% !important;
+	}
+.casual_products .isotope-item {
+	width:99%;
+}
+.col-sm-12 .casual_products .isotope-item:hover { width:100% !important;}
+.col-sm-12 .casual_products .isotope-item {
+	width:100%;
+}
+.cartbottom_btn { left:0; bottom:0; opacity:1;}
+  }

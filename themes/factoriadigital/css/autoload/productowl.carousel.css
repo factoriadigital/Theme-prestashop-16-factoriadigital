@@ -1,0 +1,167 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+ .productowl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+ .productowl-carousel .productowl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.productowl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.productowl-carousel .productowl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.productowl-carousel .productowl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.productowl-carousel .productowl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.productowl-carousel .productowl-item {
+	float: left;
+}
+
+.productowl-controls .productowl-page,
+.productowl-controls .productowl-buttons div{
+	cursor: pointer;
+}
+.productowl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(../img/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.productowl-carousel .productowl-wrapper,
+.productowl-carousel .productowl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.productowl-carousel .productowl-buttons div {
+height: 32px;
+    margin-top: -10px;
+    outline: 0 none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 32px;
+    z-index: 9999;
+}
+
+
+
+.productowl-carousel div.productowl-prev:after {
+	content:"\f053";
+	display: block;
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 32px;
+	color:#999;
+}
+.productowl-carousel div.productowl-next:after {
+	content:"\f054";
+	display: block;
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 32px;
+	color:#999;
+}
+.prodc_img {
+    clear: both;
+    display: block;
+    margin: 10px auto 0;
+    max-width: 235px;
+    position: relative;
+    width: 100%;
+}
+.productowl-carousel .productowl-prev:hover:after, 
+.productowl-carousel .productowl-next:hover:after { color:#666}
+
+.productowl-carousel .productowl-prev {left: -1px; border:1px solid #ebebeb; background:#fff; }
+.productowl-carousel .productowl-prev:hover, .productowl-carousel .productowl-next:hover { background:#eee;}
+.productowl-carousel .productowl-next {right: -1px; border:1px solid #ebebeb; background:#fff;}
+
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:0;}
+.pro-item:hover .productowl-prev, .pro-item:hover .productowl-next { opacity:1;}
+
+@media (min-width: 1200px) {
+.prodc_img {
+	min-width:235px;
+}
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+.prodc_img {
+	min-width:215px;
+	max-width:215px;
+}
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:1;}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.prodc_img {
+	min-width:175px;
+	max-width:175px;
+}
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:1;}
+}
+@media (min-width: 460px) and (max-width: 767px) {
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:1;}
+.prodc_img {
+	min-width:185px;
+	max-width:185px;
+}
+}
+@media (max-width: 459px) {
+.pro-item {width:190px}
+.prodc_img {
+	min-width:235px;
+	max-width:235px;
+}
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:1;}
+}
+@media (max-width: 320px) {
+.pro-item {width:175px}
+.pro-item .productowl-prev, .pro-item .productowl-next { opacity:1;}
+.prodc_img {
+	min-width:205px;
+	max-width:205px;
+}
+}

@@ -1,0 +1,17 @@
+nav .header_user_info {
+  float: right;
+}
+  nav .header_user_info a {
+    font-weight: normal;
+    display: block;
+    padding: 11px 9px;
+    cursor: pointer;
+	font-size:13px; }
+	nav .header_user_info a.account { float:left; background:#90C322; }
+	nav .header_user_info a.account span { color:#fff; }
+    @media (max-width: 479px) {
+      nav .header_user_info a {
+        font-size: 13px; } }
+    nav .header_user_info a:hover, nav .header_user_info a.active {
+		color:#000;
+      }

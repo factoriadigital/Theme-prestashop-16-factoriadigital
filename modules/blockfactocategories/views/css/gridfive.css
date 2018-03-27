@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@media (min-width: 1320px) {
+	 .casual_products .isotope-item:hover {
+	width:245px !important;
+	/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:245px;
+	border:1px solid #cccccc;
+	margin-left:10px;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:0;}
+.isotope-item:hover .productowl-prev, .isotope-item:hover .productowl-next { opacity:1;}
+ }
+@media (min-width: 1200px) {
+.casual_products .isotope-item:hover {
+	width:19% !important;
+/*(or) left:-69px !important;*/
+}
+
+.casual_products .isotope-item {
+	width:19%;
+}
+
+.isotope-item .prothumb {
+	height:220px;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:0;}
+.isotope-item:hover .productowl-prev, .isotope-item:hover .productowl-next { opacity:1;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.casual_products .isotope-item:hover {
+	width:24% !important;
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:24%;
+}
+.isotope-item .prothumb {
+	height:244px;
+	display:none;
+}
+.border_inside h3 a { font-size:13px;}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:1;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.casual_products .isotope-item:hover {
+	width:32% !important;
+/*(or) left:-69px !important;*/
+}
+.casual_products .isotope-item {
+	width:32%;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:1;}
+
+}
+@media (min-width: 620px) and (max-width: 768px) {
+	
+.casual_products .isotope-item:hover {
+	width:49% !important;
+	}
+.casual_products .isotope-item {
+	width:49%;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:1;}
+}
+ @media (min-width: 460px) and (max-width: 619px) {
+	  .casual_products .isotope-item:hover {
+	width:49% !important;
+	}
+.casual_products .isotope-item {
+	width:49%;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:1;}
+ }
+   @media (max-width: 459px) {
+	    .casual_products .isotope-item:hover {
+	width:99% !important;
+	}
+.casual_products .isotope-item {
+	width:99%;
+}
+.isotope-item .productowl-prev, .isotope-item .productowl-next { opacity:1;}
+   }

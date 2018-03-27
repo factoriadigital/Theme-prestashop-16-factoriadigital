@@ -1,0 +1,35 @@
+/* Block tags */
+div.tags_block .block_content { padding: 3px 6px 0 }
+div.tags_block p {
+	text-align: justify;
+	font-size: 0.9em
+}
+div.tags_block p a {
+	margin: 0 0.1em;
+	line-height: 1.5em;
+	padding:2px;
+}
+div.tags_block p a:hover {
+	background-color: #ccc;
+	text-decoration: none;
+	padding:2px;
+	color:#333333;
+}
+a.tag_level3 { font-size: 1.8em; font-weight: bold }
+a.tag_level2 { font-size: 1.4em }
+a.tag_level1 { font-size: 1em; color: #888 }
+
+#tags_block_left a {
+border: 1px solid #C5C5C5;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: "lato",georgia,serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 3px 7px;
+}
+
+#right_column #tags_block_left a { color:#000000; font-weight:bold; font-size:14px; line-height:16px;}

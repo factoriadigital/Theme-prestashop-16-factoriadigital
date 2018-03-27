@@ -1,0 +1,71 @@
+/* Block newsletter */
+#newsletter_block_left {
+	float:left;
+}
+#newsletter_block_left .title_block, #newsletter_block_left h4  {
+	padding:0;
+	color:#666;
+}
+#newsletter_block_left p {padding:0;}
+
+#newsletter_block_left p.success_inline {
+	color: #418B19;
+	text-align: center;
+	font-weight: bold;
+}
+#newsletter_block_left p.warning_inline {
+	color: #DA0F00;
+	text-align: center;
+	font-weight: bold;
+}
+
+#newsletter_block_left input.inputNew {
+	background: rgba(0, 0, 0, 0.07);
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07) inset;
+    float: left;
+    height: 40px;
+    margin-top: 1px;
+    padding: 8px;
+    width: 100%;
+	color:#fff;
+}
+#newsletter_block_left button.button_mini {
+    background: url("../../../img/newsletter-widget.png") no-repeat scroll 12px 11px rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1px;
+    padding: 0 10px;
+    position: absolute;
+    right: -5px;
+    text-indent: -9999px;
+    width: 50px;
+}
+#newsletter_block_left .input-box {
+	display: inline-block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#newsletter_block_left .warning_inline, #newsletter_block_left .success_inline { float:left; width:100%;}
+*:first-child+html #newsletter_block_left input.inputNew {position:static;}/* hack ie 7 */
+
+#newsletter_block_left input.button_mini {
+	position:relative;
+	left:-2px;
+	height:23px;
+	width:24px;
+	border:0;
+	text-indent:-5000px;
+	background:url(img/bg_bt_newsletter_ok.png) no-repeat 0 0;
+	cursor:pointer
+}
+*:first-child+html #newsletter_block_left input.button_mini {padding-left:24px !important;}/* hack ie 7 */
+

@@ -1,0 +1,259 @@
+.cross {
+	cursor:pointer;
+}
+h1.title {
+	background: url(../img/logo.png) no-repeat scroll 10px 10px  #F1F1F1;
+	border:1px solid #E1E1E1;
+	padding:10px 10px 10px 40px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#585A69;
+}
+.mainDiv { width:100%; display:inline-block;}
+.language_colum { position:relative;}
+.displayed_flag {
+     position: relative;
+  
+}
+.col-lg-2 { position:relative;}
+.language_flags {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #555555;
+    display: none;
+    float: left !important;
+    padding: 8px;
+    width: 140px;
+	position:absolute;
+	font-size:12px;
+	z-index:999;
+}
+.tabs { float:left; }
+.sections_column {background:#fff; float:left; margin-bottom:10px; width:100%;}
+.create_section {
+	float:left;
+}
+.new_section {
+	margin:15px;
+}
+.create_section .tab_head {
+	width:100%;
+}
+.productSettings {
+    float: left;
+    padding-left: 15px;
+    width: 530px;
+}
+ul.ui-sortable {
+	display: table;
+    height: 45px;
+    list-style: none;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.ui-sortable li.section_tab {
+    border-left: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: table-cell;
+    font-family: "Arial", Helvetica, sans-serif;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+	
+}
+.ui-sortable li.section_tab:first-child { border-left:0;}
+.ui-sortable li.section_tab a {box-shadow: inset  0 -8px 8px -8px #000;
+-moz-box-shadow:   inset  0 -8px 8px -8px #000;
+-webkit-box-shadow: inset  0 -8px 8px -8px #000;}
+.selection_tab { 
+float:left;
+width:374px;
+position:relative;
+background: #292C33;
+padding:5px 3px;
+border-right:1px solid #E1E1E1;
+}
+.prodTabs { display:none;}
+.ui-sortable li.section_tab div { position:relative; width:100%; margin-top:-2px;}
+.selection_tab .btn { font-size:26px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#fff; padding:0 5px;}
+.button:hover { border:1px solid #51A351;}
+.selection_addtab { width:78%; float:left;}
+.selection_submit { width:15%; float:right;}
+.selection_tab select {height: 34px;
+    line-height: 34px;
+    margin-top: 3px;
+    width: 100%;}
+.selection_tab select option { border-right:1px solid #333; padding:0px 4px;}
+.selection_tab .btn { float: right;
+    margin-right: 5px;
+    margin-top: 2px;}
+.ui-sortable li.section_tab a {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	width:100%;
+	padding:5px 10%;
+	text-align:center;
+	color:#fff;
+}
+.ui-sortable li.section_tab a:hover { text-decoration:none;}
+
+.ui-sortable li.active a {
+	background: #292C33;
+	color:#fff;
+}
+.ui-sortable li a {
+	display:block;
+	float:left;
+	padding:10px 0;
+}
+.ui-sortable span.cross {
+	overflow:hidden;
+	float:right;
+	height:22px;
+	width:22px;
+	margin-left:15px;
+	position:absolute;
+	right:7px;
+	top:10px;
+	line-height:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:0;
+}
+fieldset {
+	background:none;
+	padding:0;
+}
+
+.prodTabs td { padding:10px 0;}
+.prodTabs select { width:100%; height:120px; padding:8px 0; line-height:18px;}
+.prodTabs select.pos_select { height:25px; padding:0;}
+.prodTabs select.pos_select option { padding:0;}
+.addProd, .remProd {
+	background: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    color: #123456;
+    display: block;
+    margin: 10px 0px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+	cursor:pointer;
+	min-width:90px;
+	margin:0px 0 5px !important;
+}
+
+ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 32px;
+		width: 100%;
+	}
+	ul.tabs li a {
+		margin: 0;
+		cursor: pointer;
+		border-bottom: 3px solid #999999;
+		border-left: none;
+		background: #40454F;
+		overflow: hidden;
+		position: relative;
+		color:#fff;
+	}
+	ul.tabs li a:hover {
+		background: #292C33;
+	}	
+	ul.tabs li a.active{
+		background: #292C33;
+		box-shadow:0 -8px 8px -8px #000 inset;
+		border-bottom: 3px solid #00AFF0;
+		color:#fff;
+	}
+	.tab_container {
+		border-top: none;
+		clear: both;
+		float: left; 
+		width: 100%;
+		background: #FFFFFF;
+	}
+	.tab_content {
+		padding: 20px;
+		display: none;
+		float:left;
+		min-width:600px;
+	}
+	.tab_content td { padding:10px 0;}
+	
+.lable_lang { position:relative; float:left;}
+
+.redfoxbtn .redfox-switch {
+    background-color: #eee;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.15) inset;
+    color: #333;
+    text-align: center;
+}
+.redfoxbtn .oswitch {
+    display: block;
+    height: 26px;
+    position: relative;
+}
+.redfoxbtn .oswitch input:last-of-type:checked ~ a {
+    background-color: #93cd60;
+    border: 1px solid #79bd3c;
+    box-shadow: 0 -1px 0 #79bd3c inset;
+    left: 50%;
+}
+.redfoxbtn .oswitch a {
+    background-color: #93cd60;
+    border: 1px solid #79bd3c;
+    box-shadow: 0 -1px 0 #79bd3c inset;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+.redfoxbtn .oswitch input {
+    opacity: 0;
+    position: absolute;
+}
+.redfoxbtn input[type="radio"], .redfoxbtn input[type="checkbox"] {
+    line-height: normal;
+    margin: 4px 0 0;
+}
+.redfoxbtn .redfox-switch * {
+    outline: 0 none !important;
+}
+.redfoxbtn .redfox-switch label {
+    color: #bbb;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 0.2s ease-out 0s;
+}
+.redfoxbtn .oswitch label {
+    float: left;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 2;
+}
+
+.redfoxbtn .redfox-switch input:checked + label {
+    color: #fff;
+}
+.redfoxbtn .oswitch label, .redfoxbtn .oswitch > span {
+    line-height: 26px;
+    vertical-align: middle;
+}
